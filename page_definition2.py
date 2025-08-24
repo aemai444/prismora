@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit import session_state as ss
-from streamlit_pdf_viewer import pdf_viewer
 
 # Dialog function using the decorator
 @st.dialog("Message Window", dismissible=True, width="small")
@@ -16,3 +14,4 @@ def main_page():
     st.markdown("At Prismora, every interaction counts—turning the information users share into actionable insights that drive innovation and growth. By transforming user activity into marketable value, we empower businesses while creating a platform where engagement is truly rewarded.")
     # Initialize session state variables
    
+
